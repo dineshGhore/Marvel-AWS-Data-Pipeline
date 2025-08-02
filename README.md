@@ -1,25 +1,37 @@
-# Marvel AWS Data Pipeline
+<h1 align="center">⚡ Marvel AWS Data Pipeline ⚡</h1>
 
-A serverless data pipeline built on *AWS* to process and analyze Marvel movies data.  
-This project demonstrates how to fetch, transform, and manage movie-related information using AWS cloud services.
+<p align="center">
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="250"/>
+</p>
 
----
-
-## 🚀 Features
-- *Data Ingestion*: Collect Marvel movies data for analysis.  
-- *Processing Function*: Python function (movies_function.py) for transforming and cleaning raw data.  
-- *Serverless Architecture*: Easily deployable on AWS Lambda.  
-- *Scalable Storage*: Compatible with AWS S3 for storing processed datasets.  
-- *Analytics Ready*: Prepares clean datasets for visualization and reporting.  
+<p align="center">
+  <b>A serverless AWS-powered pipeline to process and analyze Marvel movies data.</b>
+</p>
 
 ---
 
 ## 🛠️ Tech Stack
-- *Python 3.x*  
-- *AWS Lambda*  
-- *AWS S3*  
-- *Boto3 (AWS SDK for Python)*  
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Serverless-FD5750?style=for-the-badge&logo=serverless&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Boto3-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+</p>
+
+---
+
+## 🚀 Features
+✔️ *Data Ingestion* — Collect Marvel movies data  
+✔️ *Processing Function* — Clean & transform raw data  
+✔️ *Serverless* — Deployed via AWS Lambda  
+✔️ *Scalable Storage* — AWS S3 ready  
+✔️ *Analytics Ready* — Prepares clean datasets for BI tools  
 
 ---
 
 ## 📂 Project Structure
+```bash
+marvel-aws-pipeline-main/
+│
+├── movies_function.py   # Core function for processing movie data
+├── README.md            # Project documentation
